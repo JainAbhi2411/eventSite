@@ -296,16 +296,16 @@
 
 <section class="contact" id="contact">
     <h1 class="heading"><span>contact</span>us</h1>
-    <form action="">
+    <form action="http://13.233.128.224/cgi-bin/abhinav/query.py" method="post">
         <div class="inputBox">
-            <input type="text" placeholder="name">
-            <input type="email" placeholder="email">
+            <input type="text" placeholder="name" name="name">
+            <input type="email" placeholder="email" name="email">
         </div>
         <div class="inputBox">
-            <input type="number" placeholder="number">
-            <input type="text" placeholder="subject">
+            <input type="phone" placeholder="phone" name="phone">
+            <input type="text" placeholder="subject" name="subject">
         </div>
-        <textarea name="" placeholder="your message" id="" cols="30" rows="10"></textarea>
+        <textarea name="message" placeholder="your message" id="" cols="30" rows="10"></textarea>
         <input type="submit" value="send message" class="btn">
     </form>
 </section>
